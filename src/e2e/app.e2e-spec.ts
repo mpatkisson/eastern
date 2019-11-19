@@ -1,10 +1,10 @@
-import { MaterialDashboardAngularPage } from './app.po';
+import { LbdFreeAngularcliPage } from './app.po';
 
-describe('material-dashboard-angular App', () => {
-  let page: MaterialDashboardAngularPage;
+describe('lbd-free-angularcli App', function() {
+  let page: LbdFreeAngularcliPage;
 
   beforeEach(() => {
-    page = new MaterialDashboardAngularPage();
+    page = new LbdFreeAngularcliPage();
   });
 
   it('should display message saying app works', () => {
