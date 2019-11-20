@@ -5,6 +5,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { LbdModule } from '../../lbd/lbd.module';
 import { NguiMapModule} from '@ngui/map';
+import { MarkdownModule } from 'ngx-markdown';
 
 import { AdminLayoutRoutes } from './admin-layout.routing';
 
@@ -17,7 +18,7 @@ import { HomeComponent } from '../../home/home.component';
     RouterModule.forChild(AdminLayoutRoutes),
     FormsModule,
     LbdModule,
-    NguiMapModule.forRoot({apiUrl: 'https://maps.google.com/maps/api/js?key=YOUR_KEY_HERE'})
+    MarkdownModule.forRoot()
   ],
   declarations: [
     HomeComponent
