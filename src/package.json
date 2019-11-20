@@ -33,6 +33,7 @@
         "core-js": "2.6.9",
         "googleapis": "^45.0.0",
         "jquery": "3.4.1",
+        "ngx-markdown": "^8.2.1",
         "perfect-scrollbar": "1.4.0",
         "rxjs": "6.4.0",
         "rxjs-compat": "6.4.0",
