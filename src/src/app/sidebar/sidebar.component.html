@@ -68,11 +68,23 @@
             </a>
         </li>
         <li class="separator hidden-lg hidden-md" *ngIf="isMobileMenu()"></li>
-        <li routerLinkActive="active" *ngFor="let menuItem of menuItems" class="{{menuItem.class}}">
-            <a  [routerLink]="[menuItem.path]">
-                <i class="{{menuItem.icon}}"></i>
-                <p>{{menuItem.title}}</p>
+
+        <li routerLinkActive="active open" *ngFor="let header of menuHeaders" class="keepopen {{header.class}}">
+            <a class="dropdown-toggle" data-toggle="dropdown">
+                <span>{{header.marker}}</span>
+                <p>
+                    {{header.title}}
+                    <b class="caret"></b>
+                </p>
             </a>
+            <ul class="dropdown-menu" role="menu">
+                <li routerLinkActive="active" *ngFor="let item of header.items" class="{{item.class}}">
+                    <a [routerLink]="[item.path]">
+                        <i class="{{item.icon}}"></i>
+                        <p>{{item.title}}</p>
+                    </a>
+                </li>
+            </ul>
         </li>
     </ul>
 </div>
