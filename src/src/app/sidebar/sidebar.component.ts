@@ -1,18 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 
 declare const $: any;
-declare interface RouteInfo {
-    path: string;
-    title: string;
-    icon: string;
-    class: string;
-}
+
 declare interface MenuItem {
     path: string;
     title: string;
     icon: string;
     class: string;
 }
+
 declare interface MenuHeader {
     path: string;
     marker: string;
@@ -22,18 +18,6 @@ declare interface MenuHeader {
     items: MenuItem[];
 }
 
-export const ROUTES: RouteInfo[] = [
-    { path: '/echad', title: 'Echad',  icon:'', class: '' },
-    { path: '/dashboard', title: 'Dashboard',  icon: 'pe-7s-graph', class: '' },
-    { path: '/user', title: 'User Profile',  icon:'pe-7s-user', class: '' },
-    { path: '/table', title: 'Table List',  icon:'pe-7s-note2', class: '' },
-    { path: '/typography', title: 'Typography',  icon:'pe-7s-news-paper', class: '' },
-    { path: '/icons', title: 'Icons',  icon:'pe-7s-science', class: '' },
-    { path: '/maps', title: 'Maps',  icon:'pe-7s-map-marker', class: '' },
-    { path: '/notifications', title: 'Notifications',  icon:'pe-7s-bell', class: '' },
-    { path: '/upgrade', title: 'Upgrade to PRO',  icon:'pe-7s-rocket', class: 'active-pro' },
-];
-
 export const MENU_HEADERS: MenuHeader[] = [
     { 
       path: '',
@@ -42,7 +26,7 @@ export const MENU_HEADERS: MenuHeader[] = [
       icon:'',
       class: '',
       items: [
-        { path: '/dashboard', title: 'Dashboard',  icon: 'pe-7s-graph', class: '' },
+        { path: '/home', title: 'Home',  icon: 'pe-7s-graph', class: '' },
         { path: '/user', title: 'User Profile',  icon:'pe-7s-user', class: '' },
         { path: '/table', title: 'Table List',  icon:'pe-7s-note2', class: '' },
         { path: '/typography', title: 'Typography',  icon:'pe-7s-news-paper', class: '' },
@@ -63,7 +47,6 @@ export class SidebarComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.menuItems = ROUTES.filter(menuItem => menuItem);
     this.menuHeaders = MENU_HEADERS.filter(menuHeader => menuHeader);
 
     // These three are need to make submenus work.
