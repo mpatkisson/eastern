@@ -286,6 +286,46 @@
     .main-content{
         padding: 0 10px;
         min-height: calc(100% - 123px);
+
+        table {
+            border-collapse: collapse;
+            box-shadow: 5px 10px 8px #888;
+
+            > thead > tr > th,
+            > tbody > tr > th,
+            > tfoot > tr > th,
+            > thead > tr > td,
+            > tbody > tr > td,
+            > tfoot > tr > td{
+                padding: 12px 8px;
+                vertical-align: middle;
+                border: 1px solid #efefef;
+            }
+            
+            > thead > tr > th{
+                border-bottom-width: 1px;
+                font-size: $font-size-small;
+                text-transform: uppercase;
+                color: #333;
+                font-weight: $font-weight-bold;
+                padding-bottom: 5px;
+                background-color: #fefefe;
+            }
+
+             > thead > th:first-child,
+             > tbody > td:first-child {
+                 border-left: none;
+             }
+
+             > tbody > tr:last-child {
+                 border-bottom: none;
+             }
+
+             > tbody > tr:nth-child(even) {
+                 background-color: #fff;
+             }
+
+        }
     }
 
     > .footer{
