@@ -10,6 +10,7 @@ import { MarkdownModule } from 'ngx-markdown';
 import { AdminLayoutRoutes } from './admin-layout.routing';
 
 import { HomeComponent } from '../../home/home.component';
+import { RuthComponent } from '../../ruth/ruth.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { HomeComponent } from '../../home/home.component';
     MarkdownModule.forRoot()
   ],
   declarations: [
-    HomeComponent
+    HomeComponent,
+    RuthComponent
   ]
 })
 
