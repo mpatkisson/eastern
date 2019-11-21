@@ -26,12 +26,10 @@ export const MENU_HEADERS: MenuHeader[] = [
       icon:'',
       class: '',
       items: [
-        { path: '/home', title: 'Home',  icon: 'pe-7s-graph', class: '' },
-        { path: '/user', title: 'User Profile',  icon:'pe-7s-user', class: '' },
-        { path: '/table', title: 'Table List',  icon:'pe-7s-note2', class: '' },
-        { path: '/typography', title: 'Typography',  icon:'pe-7s-news-paper', class: '' },
-        { path: '/icons', title: 'Icons',  icon:'pe-7s-science', class: '' },
-        { path: '/notifications', title: 'Notifications',  icon:'pe-7s-bell', class: '' },
+        { path: '/home', title: 'Three Themes',  icon: 'pe-7s-graph', class: '' },
+        { path: '/ruth', title: 'Ruth',  icon: 'pe-7s-graph', class: '' },
+        { path: '/genesis_1-2', title: 'Genesis 1 and 2',  icon:'pe-7s-user', class: '' },
+        { path: '/leviticus_23', title: 'Leviticus 23',  icon:'pe-7s-note2', class: '' },
       ]
     }
 ];
