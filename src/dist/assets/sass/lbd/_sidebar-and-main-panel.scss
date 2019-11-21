@@ -116,11 +116,6 @@
 
             }
 
-            a.dropdown-toggle{
-                background-color: transparent;
-                outline: none;
-            }
-
             &.separator{
                 margin: 15px 0;
                 border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -141,6 +136,7 @@
             color: $white-color;
         }
 
+        span,
         i{
             font-size: 28px;
             float: left;
@@ -156,6 +152,37 @@
             position: absolute;
             right: 30px;
         }
+
+        .open > a {
+            background-color: transparent;
+        }
+
+        .open .dropdown-menu {
+            position: static;
+            float: none;
+            width: auto;
+            margin-top: 0;
+            background-color: transparent;
+            border: 0;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+
+            li {
+                a {
+                    padding: 8px 16px 8px 35px;
+
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+
+                &:first-child > a,
+                &:last-child > a {
+                    border-radius: 4px !important;
+                }
+            }
+        }
+
     }
 
     .logo{
@@ -257,8 +284,48 @@
     overflow: auto;
 
     .main-content{
-        padding: 30px 15px;
+        padding: 0 10px;
         min-height: calc(100% - 123px);
+
+        table {
+            border-collapse: collapse;
+            box-shadow: 5px 10px 8px #888;
+
+            > thead > tr > th,
+            > tbody > tr > th,
+            > tfoot > tr > th,
+            > thead > tr > td,
+            > tbody > tr > td,
+            > tfoot > tr > td{
+                padding: 12px 8px;
+                vertical-align: middle;
+                border: 1px solid #efefef;
+            }
+            
+            > thead > tr > th{
+                border-bottom-width: 1px;
+                font-size: $font-size-small;
+                text-transform: uppercase;
+                color: #333;
+                font-weight: $font-weight-bold;
+                padding-bottom: 5px;
+                background-color: #fefefe;
+            }
+
+             > thead > th:first-child,
+             > tbody > td:first-child {
+                 border-left: none;
+             }
+
+             > tbody > tr:last-child {
+                 border-bottom: none;
+             }
+
+             > tbody > tr:nth-child(even) {
+                 background-color: #fff;
+             }
+
+        }
     }
 
     > .footer{
