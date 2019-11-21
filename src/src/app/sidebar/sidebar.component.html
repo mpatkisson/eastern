@@ -21,7 +21,7 @@
                 <li routerLinkActive="active" *ngFor="let item of header.items" class="{{item.class}}">
                     <a [routerLink]="[item.path]">
                         <i class="{{item.icon}}"></i>
-                        <p>{{item.title}}</p>
+                        <p>{{item.name}}</p>
                     </a>
                 </li>
             </ul>

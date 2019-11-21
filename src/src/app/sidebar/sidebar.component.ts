@@ -4,6 +4,7 @@ declare const $: any;
 
 declare interface MenuItem {
     path: string;
+    name: string;
     title: string;
     icon: string;
     class: string;
@@ -26,10 +27,10 @@ export const MENU_HEADERS: MenuHeader[] = [
       icon:'',
       class: '',
       items: [
-        { path: '/home', title: 'Three Themes',  icon: 'pe-7s-graph', class: '' },
-        { path: '/ruth', title: 'Ruth',  icon: 'pe-7s-graph', class: '' },
-        { path: '/genesis_1-2', title: 'Genesis 1 and 2',  icon:'pe-7s-user', class: '' },
-        { path: '/leviticus_23', title: 'Leviticus 23',  icon:'pe-7s-note2', class: '' },
+        { path: '/home', name: 'Three Themes', title: 'Three Themes / Franz Rosenzweig / Star of Redemption',  icon: 'pe-7s-graph', class: '' },
+        { path: '/ruth', name: 'Ruth', title: 'Ruth',  icon: 'pe-7s-graph', class: '' },
+        { path: '/genesis_1-2', name: 'Genesis 1 and 2', title: 'Genesis 1 and 2',  icon:'pe-7s-user', class: '' },
+        { path: '/leviticus_23', name: 'Leviticus 23', title: 'Leviticus 23',  icon:'pe-7s-note2', class: '' },
       ]
     }
 ];
