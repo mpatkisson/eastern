@@ -35,7 +35,7 @@ export const MENU_HEADERS: MenuHeader[] = [
     },
     { 
       path: '',
-      marker: '\u05D0',
+      marker: '\u05D1',
       title: 'Lesson 2',
       icon:'',
       class: '',
