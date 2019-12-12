@@ -23,7 +23,7 @@ export const MENU_HEADERS: MenuHeader[] = [
     { 
       path: '',
       marker: '\u05D0',
-      title: 'Echad',
+      title: 'Lesson 1',
       icon:'',
       class: '',
       items: [
@@ -31,6 +31,18 @@ export const MENU_HEADERS: MenuHeader[] = [
         { path: '/ruth', name: 'Ruth', title: 'Ruth - The First Recorded Convert',  icon: 'pe-7s-graph', class: '' },
         { path: '/genesis_1-2', name: 'Genesis 1 and 2', title: 'Genesis 1 and 2 - The Creation of People',  icon:'pe-7s-user', class: '' },
         { path: '/leviticus_23', name: 'Leviticus 23', title: 'Leviticus 23 - Hebrew Feasts / Modern Holidays',  icon:'pe-7s-note2', class: '' },
+      ]
+    },
+    { 
+      path: '',
+      marker: '\u05D0',
+      title: 'Lesson 2',
+      icon:'',
+      class: '',
+      items: [
+        { path: '/ten-commandments', name: '10 Commandments', title: 'Differences Between 10 Commandments in Exodus and Deuteronomy',  icon: 'pe-7s-graph', class: '' },
+        { path: '/the-tribe', name: 'The Tribe', title: 'Takeaways from The Tribe',  icon: 'pe-7s-graph', class: '' },
+        { path: '/acts', name: '(Un)Godly Acts', title: 'Godly and UnGodly Actions',  icon:'pe-7s-user', class: '' }
       ]
     }
 ];
