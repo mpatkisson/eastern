@@ -14,6 +14,7 @@ import { RuthComponent } from '../../ruth/ruth.component';
 import { Genisis1and2Component } from '../../genisis1and2/genisis1and2.component';
 import { Leviticus23Component } from '../../leviticus23/leviticus23.component';
 import { TenCommandmentsComponent } from '../../ten-commandments/ten-commandments.component';
+import { TheTribeComponent } from '../../the-tribe/the-tribe.component';
 
 @NgModule({
   imports: [
@@ -28,7 +29,8 @@ import { TenCommandmentsComponent } from '../../ten-commandments/ten-commandment
     RuthComponent,
     Genisis1and2Component,
     Leviticus23Component,
-    TenCommandmentsComponent
+    TenCommandmentsComponent,
+    TheTribeComponent
   ]
 })
 
