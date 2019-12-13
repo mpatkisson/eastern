@@ -9,15 +9,15 @@ import { MarkdownModule } from 'ngx-markdown';
 
 import { AdminLayoutRoutes } from './admin-layout.routing';
 
-import { HomeComponent } from '../../home/home.component';
-import { RuthComponent } from '../../ruth/ruth.component';
-import { Genisis1and2Component } from '../../genisis1and2/genisis1and2.component';
-import { Leviticus23Component } from '../../leviticus23/leviticus23.component';
-import { TenCommandmentsComponent } from '../../ten-commandments/ten-commandments.component';
-import { TheTribeComponent } from '../../the-tribe/the-tribe.component';
-import { ActsComponent } from '../../acts/acts.component';
-import { ShabbatComponent } from '../../shabbat/shabbat.component';
-import { HavdalahComponent } from '../../havdalah/havdalah.component';
+import { HomeComponent } from '../../lesson1/home/home.component';
+import { RuthComponent } from '../../lesson1/ruth/ruth.component';
+import { Genisis1and2Component } from '../../lesson1/genisis1and2/genisis1and2.component';
+import { Leviticus23Component } from '../../lesson1/leviticus23/leviticus23.component';
+import { TenCommandmentsComponent } from '../../lesson2/ten-commandments/ten-commandments.component';
+import { TheTribeComponent } from '../../lesson2/the-tribe/the-tribe.component';
+import { ActsComponent } from '../../lesson2/acts/acts.component';
+import { ShabbatComponent } from '../../lesson3/shabbat/shabbat.component';
+import { HavdalahComponent } from '../../lesson3/havdalah/havdalah.component';
 
 @NgModule({
   imports: [
