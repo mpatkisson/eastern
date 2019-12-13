@@ -18,6 +18,7 @@ import { TheTribeComponent } from '../../lesson2/the-tribe/the-tribe.component';
 import { ActsComponent } from '../../lesson2/acts/acts.component';
 import { ShabbatComponent } from '../../lesson3/shabbat/shabbat.component';
 import { HavdalahComponent } from '../../lesson3/havdalah/havdalah.component';
+import { AlephbetComponent } from '../../hebrew/alephbet/alephbet.component';
 
 @NgModule({
   imports: [
@@ -36,7 +37,8 @@ import { HavdalahComponent } from '../../lesson3/havdalah/havdalah.component';
     TheTribeComponent,
     ActsComponent,
     ShabbatComponent,
-    HavdalahComponent
+    HavdalahComponent,
+    AlephbetComponent
   ]
 })
 

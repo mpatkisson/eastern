@@ -55,6 +55,16 @@ export const MENU_HEADERS: MenuHeader[] = [
         { path: '/shabbat', name: 'Shabbat Ceremony', title: 'Shabbat Blessings and Rituals',  icon: 'pe-7s-check', class: '' },
         { path: '/havdalah', name: 'Havdalah', title: 'Havdalah Blessings and Rituals',  icon: 'pe-7s-check', class: '' }
       ]
+    },
+    { 
+      path: '',
+      marker: '',
+      title: 'Hebrew (extra)',
+      icon:'pe-7s-notebook',
+      class: '',
+      items: [
+        { path: '/alephbet', name: 'AlephBet', title: 'The Hebrew Alphabet',  icon: 'pe-7s-pen', class: '' },
+      ]
     }
 ];
 
