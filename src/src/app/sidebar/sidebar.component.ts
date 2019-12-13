@@ -27,7 +27,7 @@ export const MENU_HEADERS: MenuHeader[] = [
       icon:'',
       class: '',
       items: [
-        { path: '/home', name: 'Three Themes', title: 'Three Themes / Franz Rosenzweig / Star of Redemption',  icon: 'pe-7s-close-circle', class: '' },
+        { path: '/home', name: 'Three Themes', title: 'Three Themes / Franz Rosenzweig / Star of Redemption',  icon: 'pe-7s-check', class: '' },
         { path: '/ruth', name: 'Ruth', title: 'Ruth - The First Recorded Convert',  icon: 'pe-7s-close-circle', class: '' },
         { path: '/genesis_1-2', name: 'Genesis 1 and 2', title: 'Genesis 1 and 2 - The Creation of People',  icon:'pe-7s-check', class: '' },
         { path: '/leviticus_23', name: 'Leviticus 23', title: 'Leviticus 23 - Hebrew Feasts / Modern Holidays',  icon:'pe-7s-close-circle', class: '' },
@@ -40,8 +40,8 @@ export const MENU_HEADERS: MenuHeader[] = [
       icon:'',
       class: '',
       items: [
-        { path: '/ten-commandments', name: '10 Commandments', title: 'Differences Between 10 Commandments in Exodus and Deuteronomy',  icon: 'pe-7s-close-circle', class: '' },
-        { path: '/the-tribe', name: 'The Tribe', title: 'Takeaways from The Tribe',  icon: 'pe-7s-close-circle', class: '' },
+        { path: '/ten-commandments', name: '10 Commandments', title: 'Differences Between 10 Commandments in Exodus and Deuteronomy',  icon: 'pe-7s-check', class: '' },
+        { path: '/the-tribe', name: 'The Tribe', title: 'Takeaways from The Tribe',  icon: 'pe-7s-check', class: '' },
         { path: '/acts', name: '(Un)Godly Acts', title: 'Godly and UnGodly Actions',  icon:'pe-7s-close-circle', class: '' }
       ]
     }
