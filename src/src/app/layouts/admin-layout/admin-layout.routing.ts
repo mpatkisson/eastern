@@ -7,6 +7,8 @@ import { Leviticus23Component } from '../../leviticus23/leviticus23.component';
 import { TenCommandmentsComponent } from '../../ten-commandments/ten-commandments.component';
 import { TheTribeComponent } from '../../the-tribe/the-tribe.component';
 import { ActsComponent } from '../../acts/acts.component';
+import { ShabbatComponent } from '../../shabbat/shabbat.component';
+import { HavdalahComponent } from '../../havdalah/havdalah.component';
 
 export const AdminLayoutRoutes: Routes = [
     { path: 'home', component: HomeComponent },
@@ -15,5 +17,7 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'leviticus_23', component: Leviticus23Component },
     { path: 'ten-commandments', component: TenCommandmentsComponent },
     { path: 'the-tribe', component: TheTribeComponent },
-    { path: 'acts', component: ActsComponent }
+    { path: 'acts', component: ActsComponent },
+    { path: 'shabbat', component: ShabbatComponent },
+    { path: 'havdalah', component: HavdalahComponent }
 ];
