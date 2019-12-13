@@ -1,9 +1,9 @@
 
 ## Description
 
-[The Tribe Video](https://www.youtube.com/watch?v=PGVxToFPafw)
-
 What can the most successful doll on the planet show us about being Jewish today? The Tribe is an unorthodox, unauthorized, history of the Jewish people and the Barbie doll…in about 18min.
+
+[![The Tribe](assets/img/the-tribe.png)](https://www.youtube.com/watch?v=PGVxToFPafw)
 
 ## Takeaways
 
