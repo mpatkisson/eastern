@@ -44,6 +44,17 @@ export const MENU_HEADERS: MenuHeader[] = [
         { path: '/the-tribe', name: 'The Tribe', title: 'Takeaways from The Tribe',  icon: 'pe-7s-check', class: '' },
         { path: '/acts', name: '(Un)Godly Acts', title: 'Godly and UnGodly Actions',  icon:'pe-7s-close-circle', class: '' }
       ]
+    },
+    { 
+      path: '',
+      marker: '\u05D2',
+      title: 'Lesson 3',
+      icon:'',
+      class: '',
+      items: [
+        { path: '/shabbat', name: 'Shabbat Ceremony', title: 'Shabbat Blessings and Rituals',  icon: 'pe-7s-check', class: '' },
+        { path: '/havdalah', name: 'Havdalah', title: 'Havdalah Blessings and Rituals',  icon: 'pe-7s-check', class: '' }
+      ]
     }
 ];
 

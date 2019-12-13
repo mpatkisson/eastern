@@ -16,6 +16,8 @@ import { Leviticus23Component } from '../../leviticus23/leviticus23.component';
 import { TenCommandmentsComponent } from '../../ten-commandments/ten-commandments.component';
 import { TheTribeComponent } from '../../the-tribe/the-tribe.component';
 import { ActsComponent } from '../../acts/acts.component';
+import { ShabbatComponent } from '../../shabbat/shabbat.component';
+import { HavdalahComponent } from '../../havdalah/havdalah.component';
 
 @NgModule({
   imports: [
@@ -32,7 +34,9 @@ import { ActsComponent } from '../../acts/acts.component';
     Leviticus23Component,
     TenCommandmentsComponent,
     TheTribeComponent,
-    ActsComponent
+    ActsComponent,
+    ShabbatComponent,
+    HavdalahComponent
   ]
 })
 
