@@ -10,6 +10,7 @@ import { ActsComponent } from '../../lesson2/acts/acts.component';
 import { ShabbatComponent } from '../../lesson3/shabbat/shabbat.component';
 import { HavdalahComponent } from '../../lesson3/havdalah/havdalah.component';
 import { AlephbetComponent } from 'app/hebrew/alephbet/alephbet.component';
+import { RabbinicalAssemblyComponent } from 'app/extra/rabbinical-assembly/rabbinical-assembly.component';
 
 export const AdminLayoutRoutes: Routes = [
     { path: 'home', component: HomeComponent },
@@ -21,5 +22,6 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'acts', component: ActsComponent },
     { path: 'shabbat', component: ShabbatComponent },
     { path: 'havdalah', component: HavdalahComponent },
-    { path: 'alephbet', component: AlephbetComponent }
+    { path: 'alephbet', component: AlephbetComponent },
+    { path: 'ra', component: RabbinicalAssemblyComponent }
 ];

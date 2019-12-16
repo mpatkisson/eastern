@@ -19,6 +19,7 @@ import { ActsComponent } from '../../lesson2/acts/acts.component';
 import { ShabbatComponent } from '../../lesson3/shabbat/shabbat.component';
 import { HavdalahComponent } from '../../lesson3/havdalah/havdalah.component';
 import { AlephbetComponent } from '../../hebrew/alephbet/alephbet.component';
+import { RabbinicalAssemblyComponent } from '../../extra/rabbinical-assembly/rabbinical-assembly.component';
 
 @NgModule({
   imports: [
@@ -38,7 +39,8 @@ import { AlephbetComponent } from '../../hebrew/alephbet/alephbet.component';
     ActsComponent,
     ShabbatComponent,
     HavdalahComponent,
-    AlephbetComponent
+    AlephbetComponent,
+    RabbinicalAssemblyComponent
   ]
 })
 

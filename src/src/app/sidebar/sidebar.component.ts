@@ -59,11 +59,12 @@ export const MENU_HEADERS: MenuHeader[] = [
     { 
       path: '',
       marker: '',
-      title: 'Hebrew (extra)',
+      title: 'Extracurricular',
       icon:'pe-7s-notebook',
       class: '',
       items: [
-        { path: '/alephbet', name: 'AlephBet', title: 'The Hebrew Alphabet',  icon: 'pe-7s-pen', class: '' },
+        { path: '/ra', name: 'Rabbinic Assembly', title: 'The Rabbinical Assembly of Conservative Judaism',  icon: 'pe-7s-users', class: '' },
+        { path: '/alephbet', name: 'Hebrew AlephBet', title: 'The Hebrew Alphabet',  icon: 'pe-7s-pen', class: '' },
       ]
     }
 ];
