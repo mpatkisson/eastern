@@ -53,7 +53,7 @@ export const MENU_HEADERS: MenuHeader[] = [
       class: '',
       items: [
         { path: '/shabbat', name: 'Shabbat Ceremony', title: 'Shabbat Blessings and Rituals',  icon: 'pe-7s-check', class: '' },
-        { path: '/havdalah', name: 'Havdalah', title: 'Havdalah Blessings and Rituals',  icon: 'pe-7s-check', class: '' }
+        { path: '/havdalah', name: 'Havdalah Ceremony', title: 'Havdalah Blessings and Rituals',  icon: 'pe-7s-check', class: '' }
       ]
     },
     { 
