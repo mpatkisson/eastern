@@ -20,6 +20,8 @@ import { ShabbatComponent } from '../../lesson3/shabbat/shabbat.component';
 import { HavdalahComponent } from '../../lesson3/havdalah/havdalah.component';
 import { AlephbetComponent } from '../../hebrew/alephbet/alephbet.component';
 import { RabbinicalAssemblyComponent } from '../../extra/rabbinical-assembly/rabbinical-assembly.component';
+import { KashrutComponent } from '../../lesson4/kashrut/kashrut.component';
+import { TermsComponent } from '../../lesson4/terms/terms.component';
 
 @NgModule({
   imports: [
@@ -40,7 +42,9 @@ import { RabbinicalAssemblyComponent } from '../../extra/rabbinical-assembly/rab
     ShabbatComponent,
     HavdalahComponent,
     AlephbetComponent,
-    RabbinicalAssemblyComponent
+    RabbinicalAssemblyComponent,
+    KashrutComponent,
+    TermsComponent
   ]
 })
 

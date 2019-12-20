@@ -58,6 +58,17 @@ export const MENU_HEADERS: MenuHeader[] = [
     },
     { 
       path: '',
+      marker: '\u05D3',
+      title: 'Lesson 4',
+      icon:'',
+      class: '',
+      items: [
+        { path: '/terms', name: 'Judaic Terms', title: 'Important Jewish Terms',  icon: 'pe-7s-close-circle', class: '' },
+        { path: '/kashrut', name: 'Kashrut', title: 'Leviticus 11 - Laws of Kashrut',  icon: 'pe-7s-close-circle', class: '' }
+      ]
+    },
+    { 
+      path: '',
       marker: '',
       title: 'Extracurricular',
       icon:'pe-7s-notebook',
